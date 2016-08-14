@@ -1,0 +1,236 @@
+/*==================================*/
+/*=========BASIC SETUP==============*/
+/*==================================*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html, body{
+	font-family: 'Lato','Arial';
+	font-weight:300px;
+	font-size: 20px;
+}
+/*===================================================MEDIA Q*/
+@media(max-width: 768px){
+	.navbar-collapse{
+		background-color: rgba(0,0,0,0.9);
+		margin-right: 25px;
+	}
+
+	#features .fbox{
+		padding-bottom: 25px;
+	}
+
+	#photos .photos img{
+		width:280px;
+		height:183px;
+	}
+
+	#community  div .users img{
+		margin:10px;
+		width:280px;
+		height:183px;
+	}
+
+	#footer{
+		text-align: center;
+	}
+
+	#footer img{
+		padding-top: 20px;
+		margin-right:45.8%;
+	}
+
+	#find-us a{
+		margin-bottom: 25px;
+	}
+}
+/*===================================================NAVBAR*/
+.navbar-default{
+	background: transparent;
+	border: transparent;
+}
+
+.navbar-header,.navbar-collapse{
+	margin-top:20px;
+}
+
+.navbar-default .navbar-nav li a{
+	font-size:0.7em;
+	text-decoration: none;
+	margin-left:15px;
+	padding: 0 auto;
+	border-bottom: 2px solid transparent;
+	border-top: 2px solid transparent;
+	transition: border-bottom 0.5s, border-top 0.5s;
+	color:#fff;
+}
+
+.navbar-default .navbar-nav li a:hover{
+	border-bottom:2px solid #3498db;
+	border-top:2px solid #3498db;
+	color: #3498db;
+}
+
+.logo{
+	padding-left: 20px;
+}
+
+/*===================================================HEADER*/
+#header{
+	background-image:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)) ,url(../img/back-1.jpg);
+	/*background-image:url(https://images.unsplash.com/photo-1447756285628-47953ed14e2d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ba39cebeb941e0dcdb57e82204285b80);*/
+	background-position:center;
+	background-size: cover;
+	height:100vh;
+	text-align: center;
+	font-size:1.5em;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+#header {
+	padding-top:270px;
+	color: #3498db;
+}
+
+#header h2{
+	font-size:0.7em;
+	color:#fff;
+}
+/*===================================================FEATURES*/
+#features{
+	padding:150px 0;
+	background-color: #f5f6f7;
+}
+
+#features p{
+	font-size: 0.75em;
+}
+
+#features h3{
+	font-size: 90%;
+	text-align: center;
+	font-weight: 700;
+}
+
+#features .fa{
+	color:#3498db;
+}
+
+#features .fa:hover{
+	color:#1b6698;
+}
+
+/*===================================================PHOTOS*/
+
+#photos img{
+	width:370px;
+	height:244px;
+	padding:30px 0;
+}
+
+#photos{
+	padding:80px 0;
+}
+
+#photos button{
+	display: inline-block;
+	background-color:#3498db;
+	border: #3498db;
+}
+
+#photos h1,h3{
+	text-align: center;
+	width:100%;
+	color:#3498db;
+
+}
+
+#photos h1{
+	word-spacing: 3px;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+#photos h3{
+	word-spacing: 2px;
+	font-size: 0.8em;
+	font-weight: 400;
+	padding-bottom: 30px;
+}
+
+hr{
+	border-bottom: 1px solid #3498db;
+	width: 40%;
+	margin-left: 30%
+}
+
+/*===================================================COMMUNITY*/
+
+#community{
+	background-color: #f5f6f7;
+	padding:100px 0;
+}
+
+#community .users img{
+	width:370px;
+	height:244px;
+	margin:2%;
+	padding-left: 10px;
+}
+
+#community p{
+	font-size:0.8em;
+}
+
+#community .intro img{
+	margin-top: 40px;
+}
+
+
+
+/*===================================================FIND-US*/
+
+#find-us {
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(../img/back-3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color:white;
+	padding:200px 0;
+}
+
+#find-us .social{
+	padding-bottom: 20px;
+}
+
+#find-us a{
+	display: inline-block;
+	background-color:#3498db;
+	border: #3498db;
+}
+
+/*===================================================FOOTER*/
+#footer{
+	padding:50px 0;
+}
+
+#footer p{
+	font-weight:700;
+}
+
+#footer a{
+	color:#000;
+}
+
+#footer a:hover{
+	color:#3498db;
+	text-decoration: none;
+}
+
+/*===================================================END*/
